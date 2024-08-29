@@ -22,7 +22,7 @@ const Navbar = () => {
         <Link to="/referral" className="navlink">
           Referral
         </Link>
-        <Link to="/contact" className="navLink navButton">
+        <Link to="/Contact-Us" className="navLink navButton">
           Contact Us
         </Link>
       </nav>

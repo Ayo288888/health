@@ -8,6 +8,8 @@ import WellHealthPage from "./components/about-usPage/WellhealthPage";
 import Navbar from "./components/Navigation/Navbar";
 import HomePage from "./components/HomePage";
 import ServicesPage from "./components/ServicesPage/Services-Page";
+import ReferralPage from "./components/Referral/Referral-page";
+import Contact from "./components/Contact-us/contact";
 
 function App() {
   return (
@@ -18,6 +20,10 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="about-us" element={<WellHealthPage />} />
           <Route path="services" element={<ServicesPage/>}/>
+          <Route path="Referral" element={<ReferralPage />} />
+          <Route path="Contact-us" element={<Contact />} />
+
+
         </Routes>
       </Router>
     </div>

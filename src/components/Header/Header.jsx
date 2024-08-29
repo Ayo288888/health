@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./Header.module.css";
 import headerlogo from "../assets/image/headerlogo.png";
+import { Link } from 'react-scroll';
+
 
 const Header = () => {
   return (
@@ -26,9 +28,10 @@ const Header = () => {
         <a href="#referral" className={styles.navLink}>
           Referral
         </a>
-        <a href="Footer" className={styles.navButton}>
-          Contact Us
-        </a>
+        <Link to="/" smooth={true} duration={500} className={styles.navButton}>
+  Contact Us
+</Link>
+
       </nav>
     </header>
   );

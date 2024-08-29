@@ -15,7 +15,7 @@ const Hero = () => {
       <div className={styles.heroContent}>
         <h1 className={styles.heroTitle}>WELLHEALTH SERVICES LLC</h1>
         <h2 className={styles.heroSubtitle}>Housing Stabilization Services</h2>
-        <a href="services" className={styles.joinButton}>
+        <a href="referral" className={styles.joinButton}>
           Join
         </a>
       </div>
