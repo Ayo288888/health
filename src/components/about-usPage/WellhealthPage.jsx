@@ -1,5 +1,5 @@
 import React from "react";
-import "./WellHealthPage.css";
+import "./WellhealthPage.css";
 import project1 from "../assets/image/project1.jpg";
 import project2 from "../assets/image/project2.jpg";
 import project3 from "../assets/image/project3.jpg";
