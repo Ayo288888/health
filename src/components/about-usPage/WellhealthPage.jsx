@@ -20,7 +20,7 @@ function WellHealthPage() {
         </div>
         <div className="about-us-images">
           <img src={project1} alt="Project 1" />
-          <img src={project2} alt="Project 2" />
+          <img src={project2} alt="Project 2..." />
           <img src={project3} alt="Project 3..." />
         </div>
       </section>
